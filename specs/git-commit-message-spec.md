@@ -21,7 +21,7 @@ Git 要求每次提交代码，都要撰写一段 commit message，否则不允�
 
 Commit message 应该简洁清晰，说明本次提交的目的。但是，如果缺乏约束，很容易写出混乱或者无意义的内容。
 
-目前，社区中有多种 commit message 的写法规范。其中，AngularJS 提供的规范使用最广范，配套工具也最完善。本文档详细描述了该规范。
+目前，社区中有多种 commit message 的写法规范。其中，[AngularJS 规范](https://github.com/angular/angular/blob/master/CONTRIBUTING.md) 使用最广范，配套工具也最完善。本文档详细描述了该规范。
 
 ## 目的
 本规范约束了格式化 commit message 的方式，以期达到如下目的。
@@ -96,12 +96,14 @@ git log <last release> HEAD --pretty=format:%s
 **type** 用于说明 commit 的类别，只能是下面几种之一。
 
 * `feat`: 新功能
-* `fix`: 修复 bug
-* `docs`: 文档
-* `style`: 格式（不影响代码运行的变动）
-* `refactor`: 重构（既非新增功能，也非修复 bug）
-* `perf`: 优化（提升性能的变动）
-* `test`: 增加测试
+* `fix`: bug 修复
+* `docs`: 文档更新
+* `style`: 代码格式调整（不影响代码的运行逻辑）
+* `refactor`: 代码逻辑重构（既非新增功能，也非修复 bug）
+* `perf`: 代码性能优化
+* `test`: 测试用例添加或改动
+* `build`: 构建系统配置文件或脚本文件的改动
+* `ci`: 持续集成系统配置文件或脚本文件的改动
 * `chore`: 辅助脚本或工具的变动
 
 如果 `type` 为 `feat` 和 `fix`，则该 commit 将肯定出现在 changelog 之中。其他情况可选。
