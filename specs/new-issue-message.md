@@ -31,7 +31,6 @@ please provide the *STEPS TO REPRODUCE*.
 **Please tell us about your environment:**
 <!-- Operating system, IDE, package manager, HTTP server, ... -->
 
-**Extra information, if any:**
-
+**Other information:**
 ```
 
