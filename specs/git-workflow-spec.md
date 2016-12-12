@@ -39,6 +39,8 @@ Gitlab 要求采用需求驱动式开发模型。需求分为多种，可以是�
 
 Issues 用于管理需求。开发过程中，首先新建 issue，再新建对应的需求分支。需求分支总是为了解决一个或多个 issue。[7]
 
+需求分支的名称，可以与 issue的名字保持一致，并且以 issue 的编号起首，比如 15-require-a-password-to-change-it。
+
 需求开发完成后，提请一个 pull request。[8]
 
 Pull Request 被接受之后，改动合并到主干分支，issue 关闭，对应的分支被删除。如果以后该 issue 重新打开，新分支可以复用原来的名称。
