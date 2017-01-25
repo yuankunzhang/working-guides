@@ -12,6 +12,8 @@
   * [事故总结文档样例](/examples/example-postmortem.md)
   * [会议记录文档样例](/examples/example-production-meeting-minutes.md)
   * [发布前速查表样例](/examples/launch-coordination-checklist.md)
+* [质量](/quality)
+  * [可用性表](/quality/availability-table.md)
 * [安全](/security)
 * [代码风格](/code-styles)
   * [Python](/code-styles/python.md)
