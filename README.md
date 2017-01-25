@@ -12,7 +12,7 @@
   * [Python](/code-styles/python.md)
   * [Java](/code-styles/java.md)
   * [Swift](/code-styles/swift.md)
-  * [JavasSript](/code-styles/javascript.md)
+  * [JavaSript](/code-styles/javascript.md)
   * [React](/code-styles/react.md)
   * [Android](/code-styles/android.md)
   * [Objective-C](/code-styles/objective-c.md)
